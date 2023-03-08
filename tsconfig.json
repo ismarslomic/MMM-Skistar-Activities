@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noImplicitThis": true,
+    "sourceMap": true,
+    "target": "esnext",
+    "esModuleInterop": true,
+    "lib": ["DOM", "ESNext"],
+    "types": ["jest", "node", "magicmirror-module"]
+  },
+  "exclude": ["__tests__/**/*.ts"]
+}

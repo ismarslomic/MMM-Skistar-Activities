@@ -1,0 +1,10 @@
+node_modules
+.husky
+.eslintignore
+.prettierignore
+*.js
+*.map
+*.njk
+*.png
+coverage
+.gitignore
