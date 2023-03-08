@@ -21,10 +21,10 @@ jobs:
           ref: v2.22.0
 
       # Checkout this module repo
-      - name: Checkout MMM-Hello-World-Ts 🛎️
+      - name: Checkout MMM-Skistar-Activities 🛎️
         uses: actions/checkout@v3
         with:
-          path: MagicMirror/modules/MMM-Hello-World-Ts
+          path: MagicMirror/modules/MMM-Skistar-Activities
           ref: main
 
       # show directory contents
@@ -74,7 +74,7 @@ jobs:
       # Install custom module dependencies
       - name: Install custom module dependencies 📦
         run: npm run install:dep
-        working-directory: MagicMirror/modules/MMM-Hello-World-Ts
+        working-directory: MagicMirror/modules/MMM-Skistar-Activities
 
       # copy the test magicmirror config file
       - name: Copy test config file for MagicMirror

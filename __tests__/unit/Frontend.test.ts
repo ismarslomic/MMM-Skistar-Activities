@@ -13,7 +13,7 @@ describe('Frontend', () => {
     expect(mockModuleRegister).toHaveBeenCalled()
 
     const { name, implementation } = checkAndExtractRegistration(mockModuleRegister.mock.lastCall)
-    expect(name).toBe('MMM-Hello-World-Ts')
+    expect(name).toBe('MMM-Skistar-Activities')
     expect(implementation.defaults).toEqual({
       text: 'Hello World!',
     })
@@ -32,7 +32,7 @@ describe('Frontend', () => {
       } = checkAndExtractRegistration(mockModuleRegister.mock.lastCall)
 
       // when-then
-      expect(getStyles()).toEqual(['/file/css/MMM-Hello-World-Ts.css'])
+      expect(getStyles()).toEqual(['/file/css/MMM-Skistar-Activities.css'])
     })
   })
 
@@ -44,7 +44,7 @@ describe('Frontend', () => {
       } = checkAndExtractRegistration(mockModuleRegister.mock.lastCall)
 
       // when-then
-      expect(getTemplate()).toEqual('templates/MMM-Hello-World-Ts.njk')
+      expect(getTemplate()).toEqual('templates/MMM-Skistar-Activities.njk')
     })
   })
 })

@@ -43,7 +43,7 @@ let config = {
 			position: "top_left"
 		},
 		{
-			module: 'MMM-Hello-World-Ts',
+			module: 'MMM-Skistar-Activities',
 			position: 'top_left',
 			config: {
 				text: 'Hello world Ismar!',

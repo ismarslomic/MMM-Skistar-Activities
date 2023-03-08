@@ -10,7 +10,7 @@ describe('Backend', () => {
 
   beforeEach(() => {
     helper = require('../../src/backend/Backend')
-    helper.setName('MMM-Hello-World-Ts')
+    helper.setName('MMM-Skistar-Activities')
 
     // Mock the MMM sendSocketNotification function which returns data back to the frontend
     mockedSendSocketNotification = helper.sendSocketNotification as jest.MockedFunction<
@@ -36,6 +36,6 @@ describe('Backend', () => {
   test('sending greetings socket notification', async () => {
     helper.socketNotificationReceived(SocketNotification.GREETINGS_TEXT_REQUEST, config)
     expect(mockedSendSocketNotification.mock.calls[0][0]).toBe(SocketNotification.GREETINGS_TEXT_RESPONSE)
-    expect(mockedSendSocketNotification.mock.calls[0][1].text).toBe('MMM-Hello-World-Ts says: Hello World!')
+    expect(mockedSendSocketNotification.mock.calls[0][1].text).toBe('MMM-Skistar-Activities says: Hello World!')
   })
 })

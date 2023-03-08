@@ -2,7 +2,7 @@ import { Config } from '../types/Config'
 import * as Log from 'logger'
 import { SocketNotification } from '../constants/SocketNotifications'
 
-Module.register<Config>('MMM-Hello-World-Ts', {
+Module.register<Config>('MMM-Skistar-Activities', {
   // Default module config
   defaults: {
     text: 'Hello World!',
@@ -24,12 +24,12 @@ Module.register<Config>('MMM-Hello-World-Ts', {
    * vendor folder.
    */
   getStyles() {
-    return [this.file('css/MMM-Hello-World-Ts.css')]
+    return [this.file('css/MMM-Skistar-Activities.css')]
   },
 
   // MM function: loads template
   getTemplate(): string {
-    return 'templates/MMM-Hello-World-Ts.njk'
+    return 'templates/MMM-Skistar-Activities.njk'
   },
 
   // MM function: returns template data

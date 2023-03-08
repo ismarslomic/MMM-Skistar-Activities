@@ -1,9 +1,9 @@
 /*! *****************************************************************************
-  mmm-hello-world-ts
+  mmm-skistar-activities
   Version 1.0.0
 
   Magic Mirror example module in Typescript
-  Please submit bugs at https://github.com/ismarslomic/MMM-Hello-World-Ts/issues
+  Please submit bugs at https://github.com/ismarslomic/MMM-Skistar-Activities/issues
 
   (c) ismar@slomic.no
   Licence: MIT

@@ -1,10 +1,10 @@
 # Magic Mirror module: Hello world
 
-[![CodeQL](https://github.com/ismarslomic/MMM-Hello-World-Ts/actions/workflows/codeql.yml/badge.svg)](https://github.com/ismarslomic/MMM-Hello-World-Ts/actions/workflows/codeql.yml)
-[![ESLint](https://github.com/ismarslomic/MMM-Hello-World-Ts/actions/workflows/eslint.yml/badge.svg)](https://github.com/ismarslomic/MMM-Hello-World-Ts/actions/workflows/eslint.yml)
-[![ESLint](https://github.com/ismarslomic/MMM-Hello-World-Ts/actions/workflows/build.yml/badge.svg)](https://github.com/ismarslomic/MMM-Hello-World-Ts/actions/workflows/build.yml)
-[![E2E tests](https://github.com/ismarslomic/MMM-Hello-World-Ts/actions/workflows/e2e-tests.yml/badge.svg)](https://github.com/ismarslomic/MMM-Hello-World-Ts/actions/workflows/e2e-tests.yml)
-[![Unit tests](https://codecov.io/gh/ismarslomic/MMM-Hello-World-Ts/branch/main/graph/badge.svg?token=MQPHY294KB)](https://codecov.io/gh/ismarslomic/MMM-Hello-World-Ts)
+[![CodeQL](https://github.com/ismarslomic/MMM-Skistar-Activities/actions/workflows/codeql.yml/badge.svg)](https://github.com/ismarslomic/MMM-Skistar-Activities/actions/workflows/codeql.yml)
+[![ESLint](https://github.com/ismarslomic/MMM-Skistar-Activities/actions/workflows/eslint.yml/badge.svg)](https://github.com/ismarslomic/MMM-Skistar-Activities/actions/workflows/eslint.yml)
+[![ESLint](https://github.com/ismarslomic/MMM-Skistar-Activities/actions/workflows/build.yml/badge.svg)](https://github.com/ismarslomic/MMM-Skistar-Activities/actions/workflows/build.yml)
+[![E2E tests](https://github.com/ismarslomic/MMM-Skistar-Activities/actions/workflows/e2e-tests.yml/badge.svg)](https://github.com/ismarslomic/MMM-Skistar-Activities/actions/workflows/e2e-tests.yml)
+[![Unit tests](https://codecov.io/gh/ismarslomic/MMM-Skistar-Activities/branch/main/graph/badge.svg?token=MQPHY294KB)](https://codecov.io/gh/ismarslomic/MMM-Skistar-Activities)
 
 > Simple Magic Mirror module written in Typescript demonstrating use of
 > the [core module file ](https://docs.magicmirror.builders/development/core-module-file.html#available-module-instance-properties) (
@@ -24,12 +24,12 @@
 1. Navigate to the `MagicMirror/modules` directory and execute the following command
 
    ```sh
-   git clone https://github.com/ismarslomic/MMM-Hello-World-Ts.git
+   git clone https://github.com/ismarslomic/MMM-Skistar-Activities.git
    ```
 
-2. Change into the `MMM-Hello-World-Ts` module folder and install runtime dependencies with
+2. Change into the `MMM-Skistar-Activities` module folder and install runtime dependencies with
    ```sh
-   cd MMM-Hello-World-Ts
+   cd MMM-Skistar-Activities
    npm run install:dep
    ```
 
@@ -42,7 +42,7 @@ the `config/config.js` file:
 var config = {
   modules: [
     {
-      module: 'MMM-Hello-World-Ts',
+      module: 'MMM-Skistar-Activities',
       position: 'top_left',
       config: {
         text: 'Hello world Ismar!',

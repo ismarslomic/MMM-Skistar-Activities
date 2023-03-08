@@ -1,18 +1,18 @@
 {
-  "name": "mmm-hello-world-ts",
+  "name": "mmm-skistar-activities",
   "version": "1.0.0",
   "description": "Magic Mirror example module in Typescript",
-  "main": "MMM-Hello-World-Ts.js",
+  "main": "MMM-Skistar-Activities.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ismarslomic/MMM-Hello-World-Ts.git"
+    "url": "git+https://github.com/ismarslomic/MMM-Skistar-Activities.git"
   },
   "author": "ismar@slomic.no",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ismarslomic/MMM-Hello-World-Ts/issues"
+    "url": "https://github.com/ismarslomic/MMM-Skistar-Activities/issues"
   },
-  "homepage": "https://github.com/ismarslomic/MMM-Hello-World-Ts",
+  "homepage": "https://github.com/ismarslomic/MMM-Skistar-Activities",
   "scripts": {
     "build": "rollup -c",
     "lint": "npx eslint .",
