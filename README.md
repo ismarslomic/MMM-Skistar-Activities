@@ -1,4 +1,4 @@
-# Magic Mirror module: Hello world
+# Magic Mirror module: Skistar Activities
 
 [![CodeQL](https://github.com/ismarslomic/MMM-Skistar-Activities/actions/workflows/codeql.yml/badge.svg)](https://github.com/ismarslomic/MMM-Skistar-Activities/actions/workflows/codeql.yml)
 [![ESLint](https://github.com/ismarslomic/MMM-Skistar-Activities/actions/workflows/eslint.yml/badge.svg)](https://github.com/ismarslomic/MMM-Skistar-Activities/actions/workflows/eslint.yml)
@@ -6,14 +6,9 @@
 [![E2E tests](https://github.com/ismarslomic/MMM-Skistar-Activities/actions/workflows/e2e-tests.yml/badge.svg)](https://github.com/ismarslomic/MMM-Skistar-Activities/actions/workflows/e2e-tests.yml)
 [![Unit tests](https://codecov.io/gh/ismarslomic/MMM-Skistar-Activities/branch/main/graph/badge.svg?token=MQPHY294KB)](https://codecov.io/gh/ismarslomic/MMM-Skistar-Activities)
 
-> Simple Magic Mirror module written in Typescript demonstrating use of
-> the [core module file ](https://docs.magicmirror.builders/development/core-module-file.html#available-module-instance-properties) (
-> frontend)
-> and [node helper](https://docs.magicmirror.builders/development/node-helper.html) (backend) in addition to using
-> the [nunjucks](https://mozilla.github.io/nunjucks/) templates for rendering data.
->
-> The transpiled JavaScript files should work in the same way as the original JavaScript
-> module [MMM-Hello-World](https://github.com/ismarslomic/MMM-Hello-World).
+> Module for Magic Mirror displaying upcoming activities at Skistar destinations similar to what is displayed
+> at [Activities in Hemsedal](https://www.skistar.com/en/ski-destinations/hemsedal/winter-in-hemsedal/events/) on
+> Skistar website.
 
 ## Example screenshot
 
@@ -77,7 +72,8 @@ npm run test:unit
 
 ### Run e2e tests locally
 
-Make sure Magic Mirror server is running on http://localhost:8080 with config enabling this module before running the E2E tests!
+Make sure Magic Mirror server is running on http://localhost:8080 with config enabling this module before running the
+E2E tests!
 
 ```bash
 npm run test:e2e
