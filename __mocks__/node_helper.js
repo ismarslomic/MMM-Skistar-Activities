@@ -25,7 +25,7 @@ module.exports = {
             },
 
             setName(name) {
-                this.name = name;
+                this.Name = name;
             },
 
             setPath(path) {
